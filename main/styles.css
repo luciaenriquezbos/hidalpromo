@@ -1,25 +1,32 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  font: inherit;
   list-style: none;
-  width: 1448px;
-  height: 1024px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Malgun-Gothic";
 }
 
-.fondo {
-  background-image: url(/hidalpromo/img/fondo_portada.jpg);
-  background-color: brown;
-  background-size: cover;
-  background-repeat: no-repeat;
+.bk-img {
   width: 1448px;
   height: 1024px;
+  background-repeat: no-repeat;
+  display: flex;
+  position: absolute;
 }
 
 .logo {
+  display: flex;
+  position: absolute;
+  text-align: left;
+  width: 88px;
+  margin-left: 1170px;
+  margin-top: 90px;
+}
+
+.title {
   display: flex;
   position: absolute;
 }

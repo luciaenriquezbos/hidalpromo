@@ -56,16 +56,20 @@ body {
 
 .contact {
   display: flex;
-  width: 40%;
+  width: 1448px;
   flex-direction: row;
   position: absolute;
   margin-top: 965px;
-  margin-left: 50%;
-  justify-content: space-around;
+  margin-right: auto;
+  justify-content: center;
   align-items: center;
   font-family: helvetica;
   font-weight: lighter;
   font-size: 11px;
+}
+
+.icons {
+  padding-right: 8px;
 }
 small {
   padding-right: 13px;

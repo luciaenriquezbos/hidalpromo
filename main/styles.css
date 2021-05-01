@@ -14,6 +14,11 @@ body {
   font-family: "Malgun-Ghotic", serif;
 }
 
+.cover {
+  width: 1448px;
+  height: 1024px;
+}
+
 .bk-img {
   width: 100%;
   height: 1024px;
@@ -66,6 +71,7 @@ body {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 11px;
+  color: #434142;
 }
 
 .icons {
@@ -74,3 +80,89 @@ body {
 small {
   padding-right: 13px;
 }
+
+.page_01 {
+  width: 1448px;
+  height: 1024px;
+}
+
+.item1 {
+  display: flex;
+  position: absolute;
+  width: 637px;
+  height: 425px;
+  transform: translate(77px, 77px);
+}
+
+.item-image {
+  display: flex;
+  position: absolute;
+  width: 289px;
+  height: 289px;
+}
+
+.cod {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  flex-direction: row-reverse;
+  padding-right: 37px;
+  padding-top: 26px;
+  color: #929292;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+.item-content {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 50px;
+  padding-right: 37px;
+}
+
+.item-name {
+  font-family: Helvetica;
+  font-stretch: condensed;
+  font-size: 22px;
+  color: #434142;
+  margin-bottom: 3px;
+}
+
+.item-description {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #434142;
+}
+
+.available-colors {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 160px;
+  padding-right: 37px;
+  font-size: 12px;
+}
+
+.item-colors {
+  display: flex;
+  flex-direction: row;
+}
+
+.color {
+  width: 40px;
+  flex-direction: row;
+}
+
+/* .item2 {
+  display: flex;
+  position: absolute;
+  width: 637px;
+  height: 425px;
+  background-color: salmon;
+  transform: translate(733px, 77px);
+} */

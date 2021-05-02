@@ -159,6 +159,18 @@ small {
   flex-direction: row;
 }
 
+.example-category {
+  width: 1448px;
+  margin-left: 1029px;
+  margin-top: 30px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  display: flex;
+  position: absolute;
+  color: #434142;
+}
+
 .table-prices1 {
   width: 637px;
   display: grid;
@@ -189,7 +201,7 @@ small {
 }
 
 .text-prices {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 /* .item2 {

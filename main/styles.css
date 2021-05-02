@@ -143,7 +143,7 @@ small {
   position: absolute;
   flex-direction: column;
   padding-left: 300px;
-  padding-top: 160px;
+  padding-top: 190px;
   padding-right: 37px;
   font-size: 12px;
 }
@@ -151,11 +151,22 @@ small {
 .item-colors {
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
 }
 
 .color {
   width: 40px;
   flex-direction: row;
+}
+
+.table-prices {
+  background-color: blueviolet;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-top: 272px;
 }
 
 /* .item2 {

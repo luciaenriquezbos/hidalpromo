@@ -177,9 +177,9 @@ small {
   justify-content: center;
   align-items: center;
   grid-template-columns: 315px 72px 72px 72px 72px;
-  grid-template-rows: 25px 25px 25px 25px;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
   flex-direction: row;
-  margin-top: 290px;
+  margin-top: 270px;
   vertical-align: baseline;
   text-align: left;
   font-family: helvetica;
@@ -218,4 +218,12 @@ small {
   width: 637px;
   height: 425px;
   transform: translate(3px, 445px);
+}
+
+.item4 {
+  display: flex;
+  position: absolute;
+  width: 637px;
+  height: 425px;
+  transform: translate(-660px, 0px);
 }

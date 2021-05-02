@@ -81,7 +81,7 @@ small {
   padding-right: 13px;
 }
 
-.page_01 {
+.page-01 {
   width: 1448px;
   height: 1024px;
 }
@@ -101,6 +101,10 @@ small {
   height: 289px;
 }
 
+.item-image.page-02 {
+  padding-left: 348px;
+}
+
 .cod {
   display: flex;
   width: 100%;
@@ -111,6 +115,11 @@ small {
   color: #929292;
   font-family: Helvetica;
   font-weight: lighter;
+}
+
+.cod.page-02 {
+  flex-direction: row;
+  justify-content: center;
 }
 
 .item-content {
@@ -226,4 +235,9 @@ small {
   width: 637px;
   height: 425px;
   transform: translate(-660px, 0px);
+}
+
+.page_02 {
+  width: 1448px;
+  height: 1024px;
 }

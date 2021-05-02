@@ -161,12 +161,19 @@ small {
 
 .table-prices {
   background-color: blueviolet;
-  width: 100%;
-  display: flex;
-  position: absolute;
+  width: 637px;
+  display: grid;
+  grid-template-columns: 329px 38px 82px 82px 82px;
+  grid-template-rows: 15px 15px 15px 15px;
+  flex-direction: row;
   padding-left: 17px;
   padding-right: 17px;
-  margin-top: 272px;
+  margin-top: 290px;
+  vertical-align: baseline;
+  text-align: left;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 11px;
 }
 
 /* .item2 {

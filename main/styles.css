@@ -132,6 +132,11 @@ small {
   padding-right: 37px;
 }
 
+.item-content.page-02 {
+  padding-left: 40px;
+  padding-right: 300px;
+}
+
 .item-name {
   font-family: Helvetica;
   font-stretch: condensed;
@@ -155,6 +160,14 @@ small {
   padding-top: 190px;
   padding-right: 37px;
   font-size: 12px;
+}
+
+.available-colors.page-02 {
+  padding-left: 40px;
+}
+
+.small-short {
+  padding-top: 60px;
 }
 
 .item-colors {
@@ -194,6 +207,10 @@ small {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 11px;
+}
+
+.table-prices.page-02 {
+  margin-top: 283px;
 }
 
 .highlighted {

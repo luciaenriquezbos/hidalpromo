@@ -258,3 +258,37 @@ small {
   width: 1448px;
   height: 1024px;
 }
+
+.back-cover {
+  width: 1448px;
+  height: 1024px;
+  display: flex;
+  position: absolute;
+  transform: translate(0px, 1024px);
+}
+
+.message {
+  width: 1448px;
+  height: 1024px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #434142;
+  font-size: 24px;
+}
+
+.message h1 {
+  text-align: center;
+  width: 800px;
+}
+
+.logo-back {
+  display: flex;
+  position: absolute;
+  width: 120px;
+  height: 70px;
+  transform: translateX(724px);
+  margin-top: 180px;
+}

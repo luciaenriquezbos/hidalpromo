@@ -103,7 +103,8 @@ small {
 }
 
 .item-image.page-02 {
-  padding-left: 348px;
+  padding-left: 349px;
+  z-index: ;
 }
 
 .cod {
@@ -200,7 +201,7 @@ small {
   justify-content: center;
   align-items: center;
   grid-template-columns: 315px 72px 72px 72px 72px;
-  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+  grid-template-rows: 22px 22px 22px 22px 22px 22px 22px;
   flex-direction: row;
   margin-top: 270px;
   vertical-align: baseline;
@@ -208,10 +209,11 @@ small {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 11px;
+  z-index: 99;
 }
 
 .table-prices.page-02 {
-  margin-top: 283px;
+  margin-top: 262px;
 }
 
 .highlighted {
@@ -244,7 +246,7 @@ small {
   position: absolute;
   width: 637px;
   height: 425px;
-  transform: translate(3px, 445px);
+  transform: translate(738px, 521px);
 }
 
 .item4 {
@@ -252,7 +254,7 @@ small {
   position: absolute;
   width: 637px;
   height: 425px;
-  transform: translate(-660px, 0px);
+  transform: translate(78px, 521px);
 }
 
 .page_02 {
